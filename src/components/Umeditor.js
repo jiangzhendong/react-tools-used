@@ -4,7 +4,7 @@
 import React, { Component } from 'react'
 import Editor from'react-umeditor';
 
-class Umeditor extends Component {
+export default class Umeditor extends Component {
   constructor(props){
     super(props);
     this.state = {

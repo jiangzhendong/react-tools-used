@@ -8,10 +8,9 @@ import React, { Component } from 'react'
 import BraftEditor from 'braft-editor'
 import 'braft-editor/dist/braft.css'
 
-class BraftEditorModal extends Component {
+export default class BraftEditorModal extends Component {
 
   render () {
-
     const editorProps = {
       height: 500,
       contentFormat: 'html',
