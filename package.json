@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "roadhog server",
+    "build": "roadhog build",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "dva": "^2.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-import": "^1.7.0",
+    "babel-plugin-lodash": "^3.3.2",
+    "braft-editor": "^1.8.8",
+    "console-polyfill": "^0.3.0",
+    "es5-shim": "^4.5.10",
+    "eslint": "^4.14.0",
+    "eslint-config-umi": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^0.12.0",
+    "keymaster": "^1.6.2",
+    "lodash": "^4.17.5",
+    "lodash-webpack-plugin": "^0.11.5",
+    "react-lz-editor": "^0.12.1",
+    "react-player"
+    "^1.4.0",
+    "react-scripts": "1.1.4",
+    "react-umeditor": "^1.0.0-rc12",
+    "redbox-react": "^1.4.3",
+    "roadhog": "^2.0.0",
+    "roadhog-api-doc": "^1.0.0"
+  }
+}
